@@ -1,16 +1,14 @@
-# React + Vite
+# Component-Driven Productivity Engine (React To-Do App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance task management web application engineered with a reactive, component-driven architecture to deliver seamless productivity tracking.
 
-Currently, two official plugins are available:
+# 🚀 Key Features
+- Absolute State Persistence: Engineered an asynchronous serialization layer using the native Browser Web Storage API (`localStorage`) to completely eliminate data loss across session lifecycles.
+- Component-Driven Architecture: Designed an atomic, unidirectional data flow separating application core logic from isolated UI components.
+- Modern Tooling & Speed: Built on Vite to leverage optimized compilation workflows and ultra-fast hot module replacement (HMR).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛠️ Tech Stack
+- Frontend Framework: React.js (JavaScript ES6+)
+- Build Tool & Bundler: Vite
+- State Management: React Context API & Custom Hooks
+- Styling: Custom CSS Matrix Layouts
